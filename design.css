@@ -789,7 +789,7 @@ body{
        font-size: 16px;
    }
    .logos{
-       margin-top: 10px;
+       margin-top: 0px;
    }
    .twit{
        margin-right: 8px;
@@ -799,4 +799,26 @@ body{
    }
         
 }
+
+@media (max-width: 324px)
+{
+    .footers{
+        background-color:rgb(89, 88, 88) ;
+        margin-top: 7em;
+        padding: 10px 22px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+    .logos{
+        margin-top: 0px;
+    }
+    .twit{
+        margin-right: 2px;
+    }
+    .github{
+        margin-left:2px;
+    } 
+}
+
 
