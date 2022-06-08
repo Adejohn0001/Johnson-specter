@@ -1,0 +1,802 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+     .nav{
+         display:flex;
+         text-decoration: none;
+         padding: 0px 80px;
+         justify-content: space-between;
+     }
+     .navbar-links ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .navbar-links li {
+        list-style-type: none;
+    }
+    .navbar-links li a {
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+        display: block;
+        margin-top: 23px;
+    }
+     .navbar-links ul li a:hover{
+         cursor: pointer;
+         color: rgb(243, 243, 95);
+         font-weight: 900;
+         opacity: 1.0;
+     }
+
+     .toggle-button
+     {
+        position: absolute;
+        top: .75rem;
+        right: 4rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+        margin-top: 10px;
+    }
+     .john{
+         margin-top: 24px;
+         padding-left: 30px;
+         opacity: 0.7;
+     }
+     .botton1{
+        background-color: yellow;
+        padding: 13px 30px;
+        font-size:23px;
+        margin: 1em 4em 0em 0em;
+        border: none;
+     }
+     .botton1:hover
+     {
+         text-decoration: underline;
+         text-transform: capitalize;
+         font-size: 23px;
+
+     }
+
+     .helping-companies-build-better{
+         padding: 0px 80px;
+         margin:7em 0em 0em;
+     }
+     .helping-companies-build-better h1{
+         margin-right: 20em;
+     }
+     .helping-companies-build-better p{
+         margin-right: 35em;
+         opacity: 0.7;
+         font-size: 16px;
+     }
+
+     #payplatform{
+         padding-left: 75px;
+         margin: 2em 0em 3em;
+     }
+     
+    #justifyall{
+      margin-top: 4em;
+      display: flex;
+      padding: 0px 80px;
+      justify-content: space-between;
+      margin-bottom: 7em;
+    }
+    .walmart{
+        margin-right: 3em;
+    }
+      
+   .toflex{
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 80px;
+    }
+    .toflex p{
+        font-size: 15px;
+        opacity: 0.7;
+        margin-top: 8px;
+    }
+    .rethinking{
+        margin-right: 3em;
+    }
+    .container5{
+        background-color: rgb(89, 88, 88);
+        margin-top: 7em;
+        display: flex;
+        justify-content: space-between;
+        padding:50px 80px ;
+        opacity: 0.7;
+    }
+    #margin1{
+        margin-right:3em ;
+    }
+    .thecombined{
+        margin-top: 7px;
+        margin-bottom:1em;
+    }
+    .iproud{
+        margin-bottom:1em;
+    }
+    .asadeveloper{
+        margin-bottom:1em;
+        margin-top: 8px;
+    }
+    .aquote{
+        margin-bottom: 1em;
+    }
+    .howbig{
+        margin-bottom: 1em;
+    }
+
+    .container6{
+        margin-top: 7em;
+        padding: 0px 80px;
+    }
+    .container6 h1{
+        font-size: 30px;
+    }
+    .container6 p{
+        font-size:16px;
+        opacity: 0.7;
+        margin-right:43em;
+    }
+    .botton{
+        background-color: rgb(243, 243, 95);
+        padding: 13px 30px;
+        font-size:23px;
+        margin-top: 1em;
+        border: none;
+     }
+
+     .botton:hover
+     {
+         text-decoration: underline;
+         cursor: pointer;
+     }
+ 
+
+    .footers{
+        background-color:rgb(89, 88, 88) ;
+        margin-top: 7em;
+        padding: 20px 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logos{
+        margin-top: 4px;
+    }
+    .twit{
+        margin-right: 8px;
+    }
+    .github{
+        margin-left:8px;
+    }
+    img:hover
+    {
+        cursor: pointer;
+    }
+
+    @media (max-width: 1028px)
+    {
+        .helping-companies-build-better{
+            padding: 0px 80px;
+            margin:7em 0em 0em;
+        }
+        .helping-companies-build-better h1{
+            margin-right: 10em;
+        }
+        .helping-companies-build-better p{
+            margin-right: 15em;
+            opacity: 0.7;
+            font-size: 16px;
+        }
+   
+        #payplatform{
+            padding-left: 100px;
+            margin: 2em 0em 3em;
+        }
+        
+       #justifyall{
+         margin-top: 4em;
+         display: flex;
+         padding: 0px 80px;
+         justify-content: space-between;
+         margin-bottom: 7em;
+       }
+       .walmart{
+           margin-right: 3em;
+       }
+         
+      .toflex{
+         display: flex;
+         justify-content: space-between;
+         padding: 0px 80px;
+       }
+       .toflex p{
+           font-size: 15px;
+           opacity: 0.7;
+           margin-top: 8px;
+       }
+       .rethinking{
+           margin-right: 3em;
+       }
+
+       .spenseimg
+       {
+           height: 70%;
+           width: 90%;
+       }
+
+       .yelpimg
+       {
+        height: 70%;
+        width: 100%; 
+       }
+       .container5{
+           background-color: rgb(89, 88, 88);
+           margin-top: 7em;
+           display: flex;
+           justify-content: space-between;
+           padding:50px 80px ;
+           opacity: 0.7;
+       }
+       #margin1{
+           margin-right:3em ;
+       }
+       .thecombined{
+           margin-top: 7px;
+           margin-bottom:1em;
+       }
+       .iproud{
+           margin-bottom:1em;
+       }
+       .asadeveloper{
+           margin-bottom:1em;
+           margin-top: 8px;
+       }
+       .aquote{
+           margin-bottom: 1em;
+       }
+       .howbig{
+           margin-bottom: 1em;
+       }
+
+       .container6 p{
+        font-size:16px;
+        opacity: 0.7;
+        margin-right:30em;
+    }
+     
+    }
+
+
+    @media (max-width:916px) 
+    {
+        .navbar-links ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        .navbar-links li {
+            list-style-type: none;
+        }
+        .navbar-links li a {
+            text-decoration: none;
+            color: white;
+            padding: 1rem;
+            display: block;
+            margin-top: 2em;
+        }
+         .navbar-links ul li a:hover {
+             cursor: pointer;
+             color: rgb(243, 243, 95);
+             font-weight: 900;
+             opacity: 1.0;
+         }
+    
+         .toggle-button{
+            position: absolute;
+            top: .75rem;
+            right: 4rem;
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 21px;
+            margin-top: 10px;
+        }
+         .john{
+             margin-top: 24px;
+             padding-left: 20px;
+             opacity: 0.7;
+         }
+         .botton1{
+            background-color: yellow;
+            padding: 13px 30px;
+            font-size:23px;
+            margin: 1em 1em 0em 0em;
+            border: none;
+         } 
+         
+         .helping-companies-build-better{
+            padding: 0px 30px;
+            margin:7em 0em 0em;
+        }
+        .helping-companies-build-better h1{
+            margin-right: 2em;
+        }
+        .helping-companies-build-better p{
+            margin-right: 10em;
+            opacity: 0.7;
+            font-size: 16px;
+        }
+   
+        #payplatform{
+            padding-left: 20px;
+            margin: 7em 0em 3em;
+        }
+        
+        #tinder, #samsung, #verizon
+        {
+            margin-top: 25px;
+        }
+         
+      .toflex{
+         display: flex;
+         justify-content: space-between;
+         padding: 0px 30px;
+       }
+       .toflex p{
+           font-size: 15px;
+           opacity: 0.7;
+           margin-top: 8px;
+       }
+       .rethinking{
+           margin-right: 3em;
+       }
+
+       .spenseimg
+       {
+           height: 70%;
+           width: 90%;
+       }
+
+       .yelpimg
+       {
+        height: 70%;
+        width: 100%; 
+       }
+       .container5{
+           background-color: rgb(89, 88, 88);
+           margin-top: 7em;
+           display: flex;
+           justify-content: space-between;
+           padding:50px 30px ;
+           opacity: 0.7;
+       }
+       #margin1{
+           margin-right:3em ;
+       }
+       .thecombined{
+           margin-top: 7px;
+           margin-bottom:1em;
+       }
+       .iproud{
+           margin-bottom:1em;
+       }
+       .asadeveloper{
+           margin-bottom:1em;
+           margin-top: 8px;
+       }
+       .aquote{
+           margin-bottom: 1em;
+       }
+       .howbig{
+           margin-bottom: 1em;
+       }
+   
+       .container6{
+           margin-top: 7em;
+           padding: 0px 30px;
+       }
+       .container6 h1{
+           font-size: 30px;
+       }
+       .container6 p{
+           font-size:16px;
+           opacity: 0.7;
+           margin-right:20em;
+       }
+       .botton{
+           background-color: rgb(243, 243, 95);
+           padding: 13px 30px;
+           font-size:23px;
+           margin-top: 1em;
+           border: none;
+        }
+    
+        
+    }
+
+    @media (max-width: 855px) 
+    {
+        .nav{
+            display:flex;
+            text-decoration: none;
+            padding: 0px 0px;
+            justify-content: space-between;
+        }
+        .navbar-links ul{
+           margin: 0;
+           padding: 0;
+           display: flex;
+       }
+       
+       .navbar-links li {
+           list-style-type: none;
+       }
+       .navbar-links li a {
+           text-decoration: none;
+           color: white;
+           padding: 0rem;
+           display: block;
+           margin-top: 25px;
+       }
+        .navbar-links ul li a:hover{
+            cursor: pointer;
+            color: rgb(243, 243, 95);
+            font-weight: 900;
+            opacity: 1.0;
+        }
+   
+        .toggle-button
+        {
+           position: absolute;
+           top: .75rem;
+           right: 4rem;
+           display: none;
+           flex-direction: column;
+           justify-content: space-between;
+           width: 30px;
+           height: 21px;
+           margin-top: 10px;
+       }
+        .john{
+            margin-top: 24px;
+            padding-left: 30px;
+            opacity: 0.7;
+        }
+        .botton1{
+           background-color: yellow;
+           padding: 13px 30px;
+           font-size:23px;
+           margin: 1em 1em 0em 0em;
+           border: none;
+        }
+        .botton1:hover
+        {
+            text-decoration: underline;
+            text-transform: capitalize;
+            font-size: 22px;
+   
+        }
+
+        #tinder, #samsung, #verizon
+        {
+             margin-top: 25px;
+        }
+     
+    }
+@media (max-width:768px){
+    .abt {
+        margin-right: 32px;
+    }
+    .toggle-button{
+        margin-top: 2em;
+        display: flex;
+    }
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links li {
+        text-align: center;
+        padding-left: 30px;
+    }
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .navbar-links ul li a:hover {
+        background-color: rgb(243, 243, 95);
+        color: white;
+        padding: .5rem 1rem;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    
+    .john{
+        font-size: 27px;
+        margin-top: 24px;
+        opacity: 0.7;
+        padding-left: 30px;
+    }
+    .botton1{
+       display: none;
+    }
+
+    .helping-companies-build-better{
+        padding: 0px 22px;
+        margin:7em 0em 0em;
+    }
+    .helping-companies-build-better h1{
+        font-size: 47px;
+        margin-right: 0em;
+    }
+    .helping-companies-build-better p{
+        margin-right: 0em;
+        opacity: 0.7;
+        font-size: 16px;
+        padding-right: 60px;
+    }
+
+    #tinder, #samsung, #verizon
+    {
+        margin-top: 25px;
+    }
+
+  .toflex{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 0px 22px;
+   }
+   .toflex img{
+       width: 100%;
+   }
+   .toflex p{
+       font-size: 16px;
+       opacity: 0.7;
+       margin-top: 8px;
+   }
+   .rethinking{
+       margin-bottom: 4em;
+   }
+   .container5{
+       background-color: rgb(89, 88, 88);
+       margin-top: 7em;
+       display: flex;
+       flex-direction: column;
+       padding:50px 22px ;
+       opacity: 0.7;
+       font-size: 16px;
+   }
+   #margin1{
+       margin-right:0em ;
+   }
+   .thecombined{
+       margin-top: 7px;
+       margin-bottom:1em;
+   }
+   .iproud{
+       margin-bottom:1em;
+   }
+   .asadeveloper{
+       margin-bottom:1em;
+       margin-top: 8px;
+   }
+   .aquote{
+       margin-bottom: 1em;
+   }
+   .howbig{
+       margin-bottom: 1em;
+   }
+
+   .container6{
+       margin-top: 7em;
+       padding: 0px 22px;
+   }
+   .container6 h1{
+       font-size: 30px;
+   }
+   .container6 p{
+       font-size:16px;
+       opacity: 0.7;
+       margin-right:0em;
+       padding-right: 225px;
+   }
+    .botton{
+      background-color:rgb(243, 243, 95) ;
+      padding: 13px 30px;
+      font-size:23px;
+      margin-top: 1em;
+      border: none;
+ }
+
+
+   .footers{
+       background-color:rgb(89, 88, 88) ;
+       margin-top: 7em;
+       padding: 10px 22px;
+       display: flex;
+       justify-content: space-between;
+   }
+   .logos{
+       margin-top: 10px;
+   }
+   .twit{
+       margin-right: 8px;
+   }
+   .github{
+       margin-left:8px;
+   }
+    
+
+}
+
+
+@media (max-width:500px)  {
+
+    .toggle-button{
+        display: block;
+        top: 1px;
+        right: 34px;
+    
+    }
+
+    .john{
+        font-size: 18px;
+        margin-top: 24px;
+        opacity: 0.7;
+    }
+
+    .helping-companies-build-better{
+        padding: 0px 22px;
+        margin:7em 0em 0em;
+    }
+    .helping-companies-build-better h1{
+        font-size: 40px;
+        margin-right: 0em;
+    }
+    .helping-companies-build-better p{
+        margin-right: 0em;
+        opacity: 0.7;
+        font-size: 16px;
+        padding-right: 60px;
+    }
+
+    #morgan
+    {
+        margin: 1em 0em;
+    }
+    .justifytwo{
+        display: flex;
+        margin-top: 4em;
+        justify-content: center;
+    }
+    .twoagain{
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+    }
+    .againtwo{
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+    }
+  .toflex{
+     display: flex;
+     flex-direction: column;
+     padding: 0px 22px;
+   }
+   .toflex img{
+       width: 100%;
+   }
+   .toflex p{
+       font-size: 20px;
+       opacity: 0.7;
+       margin-top: 8px;
+   }
+   .rethinking{
+       margin-bottom: 4em;
+   }
+   .container5{
+       background-color: rgb(89, 88, 88);
+       margin-top: 7em;
+       display: flex;
+       flex-direction: column;
+       padding:50px 22px ;
+       opacity: 0.7;
+       font-size: 16px;
+   }
+   #margin1{
+       margin-right:0em ;
+   }
+   .thecombined{
+       margin-top: 7px;
+       margin-bottom:1em;
+   }
+   .iproud{
+       margin-bottom:3em;
+   }
+   .asadeveloper{
+       margin-bottom:1em;
+       margin-top: 8px;
+   }
+   .aquote{
+       margin-bottom: 1em;
+   }
+   .howbig{
+       margin-bottom: 1em;
+   }
+
+   .container6{
+       margin-top: 7em;
+       padding: 0px 22px;
+   }
+   .container6 h1{
+       font-size: 38px;
+   }
+   .container6 p{
+       font-size:16px;
+       opacity: 0.7;
+       margin-right:0em;
+       padding-right: 2px;
+   }
+   .botton{
+    background-color: rgb(243, 243, 95);
+    padding: 13px 30px;
+    font-size:23px;
+    margin-top: 1em;
+    border: none;
+
+ }
+
+
+   .footers{
+       background-color:rgb(89, 88, 88) ;
+       margin-top: 7em;
+       padding: 10px 22px;
+       display: flex;
+       justify-content: space-between;
+       font-size: 16px;
+   }
+   .logos{
+       margin-top: 10px;
+   }
+   .twit{
+       margin-right: 8px;
+   }
+   .github{
+       margin-left:8px;
+   }
+        
+}
+
